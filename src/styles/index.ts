@@ -21,7 +21,5 @@ export const Container = styled.div`
 
 export const Block = styled.div` 
     margin: 20px auto;
-    border-radius: 16px;
-    box-shadow: ${vari.sombra};
     padding: 16px 0;
 `

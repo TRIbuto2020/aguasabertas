@@ -42,7 +42,7 @@ export const NavList = styled.ul`
         padding: 0 8px;
 
         &:nth-child(-n+3){
-            border-right: 1px solid rgb(204, 219, 232);
+            border-right: 1px solid ${vari.line};
         }
     }
 
@@ -52,7 +52,7 @@ export const NavList = styled.ul`
 
         li:nth-child(-n+3){
             width: 100%;
-            border-bottom: 1px solid rgb(204, 219, 232);
+            border-bottom: 1px solid ${vari.line};
             border-right: none;
 
         }
