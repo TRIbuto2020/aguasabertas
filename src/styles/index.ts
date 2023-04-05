@@ -1,4 +1,5 @@
 import {createGlobalStyle} from 'styled-components';
+import vari from './var';
 
 export const EstiloGlobal = createGlobalStyle`
     *{
@@ -7,5 +8,10 @@ export const EstiloGlobal = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
+        font-family: 'ShinGo'
+    }
+
+    body{
+        background-color: ${vari.beige}
     }
 `
