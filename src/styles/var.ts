@@ -1,12 +1,10 @@
 const vari = {
-    tan: '#eaba6b',
-    blueGrey: '#0081af',
     blue: '#00abe7',
-    lightBlue: '#2dc7ff',
-    beige: '#ead2ac',
-    deepBlue: '#0a1128',
-    darkBlueGrey: '#131a2b',
-    sombra: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;'
+    blue2: '#005984',
+    green: '#00c70d',
+    bg: '#fefeff',
+    sombra: 'rgb(204, 219, 232) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px',
+    inset: 'rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;'
 }
 
 export default vari

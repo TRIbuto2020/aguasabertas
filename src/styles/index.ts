@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import styled, {createGlobalStyle} from 'styled-components';
 import vari from './var';
 
 export const EstiloGlobal = createGlobalStyle`
@@ -8,10 +8,20 @@ export const EstiloGlobal = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
-        font-family: 'ShinGo'
+        font-family: 'ShinGo';
+        background-color: ${vari.bg}
     }
+`
 
-    body{
-        background-color: ${vari.beige}
-    }
+export const Container = styled.div`
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+`
+
+export const Block = styled.div` 
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: ${vari.sombra};
+    padding: 16px 0;
 `
