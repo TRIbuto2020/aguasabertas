@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { EstiloGlobal } from "./styles"
 import Home from './pages/Home'
 import Calc from './pages/Calc'
+import Score from './pages/Score'
 
 const rotas = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const rotas = createBrowserRouter([
   {
     path: '/Calculadora',
     element:<Calc />
+  },
+  {
+    path: '/Placar',
+    element:<Score />
   }
 ])
 

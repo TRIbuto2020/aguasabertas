@@ -10,7 +10,7 @@ const List = (props: Props) => {
         <>
             <li><BtnNav page={props.page} to={'/Calculadora'}>Calculadoras</BtnNav></li>
             <li><BtnNav page={props.page} to={'/'}>Treinos</BtnNav></li>
-            <li><BtnNav page={props.page} to={'/'}>Provas</BtnNav></li>
+            <li><BtnNav page={props.page} to={'/Placar'}>Placar</BtnNav></li>
             <li><BtnNav page={props.page} to={'/'}>Loja</BtnNav></li>
         </>
     )
