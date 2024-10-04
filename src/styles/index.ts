@@ -1,5 +1,5 @@
-import styled, {createGlobalStyle} from 'styled-components';
-import vari from './var';
+import styled, { createGlobalStyle } from "styled-components";
+import vari from "./var";
 
 export const EstiloGlobal = createGlobalStyle`
     *{
@@ -11,15 +11,15 @@ export const EstiloGlobal = createGlobalStyle`
         font-family: 'ShinGo';
         background-color: ${vari.bg}
     }
-`
+`;
 
 export const Container = styled.div`
-    max-width: 1024px;
-    width: 90%;
-    margin: 0 auto;
-`
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+`;
 
-export const Block = styled.div` 
-    margin: 20px auto;
-    padding: 16px 0;
-`
+export const Block = styled.div`
+  margin: 20px auto;
+  padding: 16px 0;
+`;
